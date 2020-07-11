@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/pexels-photo-397998.jpeg);
+    width: 100%;
+    height: auto;
+}
+
+.header__logo{
+    margin-left: 50px ;
+    height: 92px;
+    width: 150px;
+    position: relative;
+    top:-70px;
+}
+
+.header__menu{
+    height: 92px;
+    width: 100%;
+    background-color: black;
+}
+
+.header__list{
+    padding-left: 0;
+    list-style: none;
+}
+
+.header__list > a:first-child{
+    margin-left: 600px;
+}
+
+.header__list > a{
+    margin-top: 40px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+}
+
+.section__information > p{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section__information > p:first-child{
+    margin-top: 250px;
+}
+
+
+.section__information > a {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 670px;
+    text-decoration: none;
+    color:black;
+    border: solid 1px gray;
+    padding: 20px;
+    background-color: white; 
+    transition: 3s;
+}
+
+.footer{
+    height:92px;
+    width:100%;
+    background-color: gray;
+    margin-top: 400px;
+}
+
+.header__registration{
+    height:92px;
+    width: 100%;
+    background-color: gray;
+}
+
+.header__registration > p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: xx-large;
+}
+
+.registration__form{
+    text-align: center;
+    color: white;
+}
